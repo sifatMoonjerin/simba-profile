@@ -1,3 +1,65 @@
 body{
     font-family: 'Lacquer', sans-serif;
+    margin: 0;
 }
+
+section{
+    height: 100vh;
+}
+
+.top-sec{
+    background-image: url("images/top-banner.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.content-block{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 30px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: darkslategray;
+}
+
+.orange-highlight{
+    font-size: 55px;
+    color: orange;
+}
+
+p{
+    color: gray;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.link-btn{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Lacquer', sans-serif;
+    padding: 10px 30px;
+    background-color: tomato;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.link-btn:hover{
+    background-color: crimson;
+}
+
+.dp{
+    margin-top: 50px;
+    width: 100%;
+}
+
+
